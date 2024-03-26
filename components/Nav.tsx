@@ -11,8 +11,9 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar";
 import Link from "next/link";
-const elements = document.getElementsByClassName("menu");
+
 function componentDidMount() {
+  const elements = document.getElementsByClassName("menu");
   for (let i = 0; i < elements.length; i++) {
     if (elements[i].classList.contains("hidden")) {
       elements[i].classList.remove("hidden");
@@ -35,16 +36,18 @@ export default function Nav() {
       <header className="py-6 mx-10 uppercase">
         <nav className=" flex flex-row justify-between items-center">
           <div className=" logo  basis-2/6 text-center font-semibold cursor-pointer">
-            GoGo Amine
+            <Link href="/Home" className="hover-Item">
+              GOGO ANIME
+            </Link>
           </div>
           <ul className=" hidden lg:basis-3/6 lg:flex lg:items-center lg:justify-end gap-8">
             <li>
-              <Link href="/" className="hover-Item">
+              <Link href="/Home" className="hover-Item">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="" className="hover-Item">
+              <Link href="/" className="hover-Item">
                 Anime
               </Link>
             </li>
@@ -93,6 +96,21 @@ export default function Nav() {
                   </MenubarContent>
                 </MenubarMenu>
               </Menubar> */}
+            </li>
+            <li>
+              <Link href="/register" className="hover-Item">
+                Đăng ký
+              </Link>
+            </li>
+            <li>
+              <Link href="/login" className="hover-Item">
+                Đăng Nhập
+              </Link>
+            </li>
+            <li>
+              <Link href="/InSetDataGGSheet" className="hover-Item">
+                About
+              </Link>
             </li>
           </ul>
           <ul className=" hidden lg:basis-1/6  lg:flex lg:justify-end lg:items-center">
