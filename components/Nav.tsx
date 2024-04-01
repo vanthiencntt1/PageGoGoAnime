@@ -36,18 +36,18 @@ export default function Nav() {
       <header className="py-6 mx-10 uppercase">
         <nav className=" flex flex-row justify-between items-center">
           <div className=" logo  basis-2/6 text-center font-semibold cursor-pointer">
-            <Link href="/Home" className="hover-Item">
+            <Link href="/" className="hover-Item">
               GOGO ANIME
             </Link>
           </div>
           <ul className=" hidden lg:basis-3/6 lg:flex lg:items-center lg:justify-end gap-8">
             <li>
-              <Link href="/Home" className="hover-Item">
+              <Link href="/" className="hover-Item">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/" className="hover-Item">
+              <Link href="/IsAddress" className="hover-Item">
                 Anime
               </Link>
             </li>
@@ -122,13 +122,13 @@ export default function Nav() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
                 />
               </svg>

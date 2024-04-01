@@ -48,6 +48,90 @@ export default function Main() {
       Tacgia: "Nguyễn Văn Thiện",
       LuotView: "123234334",
     },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
+    {
+      TenAnmie: "Anmine2",
+      Tapmoinhat: "Tập 34",
+      Tacgia: "Nguyễn Văn Thiện",
+      LuotView: "123234334",
+    },
   ];
   {
     const listItems = data.map((product) => (
@@ -57,8 +141,8 @@ export default function Main() {
     ));
   }
   return (
-    <div className=" bg-slate-500 h-auto w-full lg:flex justify-center ">
-      <main className="lg:w-2/3 w-full h-full ">
+    <div className=" bg-slate-500 h-auto w-full lg:flex justify-center rounded-lg">
+      <main className="lg:w-2/3 w-full h-full  rounded-lg">
         <div className="grid lg:grid-cols-4 gap-4  md:gap-3  md:grid-cols-3 sm:gap-2  sm:grid-cols-2">
           <div className="border-x-2">
             <Image
@@ -239,7 +323,7 @@ export default function Main() {
           </Pagination>
         </div>
       </main>
-      <section className="lg:w-1/3 w-full h-full bg-orange-200">
+      <section className="lg:w-1/3 w-full h-full bg-orange-200  rounded-lg">
         <div className="text-center">
           <span>Anime Mới</span>
         </div>

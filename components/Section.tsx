@@ -1,13 +1,8 @@
-import React from "react";
-import Image from "next/image";
-
-import { Card, CardContent } from "@/components/ui/card";
+import React, { useRef, useEffect } from "react";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 export default function Section() {
@@ -21,13 +16,20 @@ export default function Section() {
   ];
 
   return (
-    <Carousel>
-      <CarouselContent className="-ml-4">
-        <CarouselItem className="pl-4"></CarouselItem>
-        <CarouselItem className="pl-4">...</CarouselItem>
-        <CarouselItem className="pl-4">...</CarouselItem>
-      </CarouselContent>
-    </Carousel>
+    <div>
+      <Carousel>
+        <CarouselContent className="-ml-4">
+          <CarouselItem className="pl-4"></CarouselItem>
+          <CarouselItem className="pl-4">...</CarouselItem>
+          <CarouselItem className="pl-4">...</CarouselItem>
+        </CarouselContent>
+      </Carousel>
+      <p className="flex justify-center">
+        <video controls autoPlay muted className=" text-center ">
+          <source src="/ThangTuLaLoiNoiDoiCuaEm.mp4" type="video/mp4" />
+        </video>
+      </p>
+    </div>
     // <div className=" w-full h-60 ">
     //   <Carousel
     //     opts={{
